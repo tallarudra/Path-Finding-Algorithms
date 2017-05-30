@@ -8,7 +8,7 @@ Run the pathFinder.py file without providing any arguments. The program will ask
     &lt;START STATE&gt;<br>&lt;GOAL STATE&gt;<br>&lt;NUMBER OF PATHS&gt;<br>&lt;... PATHS ...&gt;<br>&lt;NUMBER OF HEURISTIC PATHS&gt;<br>&lt;... HEURISTIC PATHS ...&gt;<br><br>
     The input consists of the start state, goal state, number of 'n' paths, followed by 'n' paths on a seperate line where each path is of the format &lt;fromState toState Cost&gt;. Next, it has the number of heuristic paths followed by the heuristic paths in the same format.<br>
     <br>
-    <h2>Output</h2>
+    Output<br>
     The output path is generated in an output.txt file. The output files contains multiple lines where each line is of the format:<br>
     &lt;STATE&gt; &lt;ACCUMULATED TRAVEL TIME FROM START TO HERE&gt;</br>
  
