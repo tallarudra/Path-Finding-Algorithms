@@ -5,5 +5,5 @@ Given set of nodes and the distance between them, it finds the path between the 
 Run the pathFinder.py file without providing any arguments. The program will ask 2 inputs from the User:<br>
     <ol><li>Name of the file present in the same directory as pathFinder.py or a relative link to the input file.<li>The algorithm to be used to compute the path. (BFS, DFS, A*, UCS - Case Sensitive).</ol><br>
     Input Format:<br>
-    &lt;START STATE&gt;&lt;GOAL STATE&gt;&lt;NUMBER OF LIVE TRAFFIC LINES&gt;&lt;... LIVE TRAFFIC LINES ...&gt;&lt;NUMBER OF SUNDAY TRAFFIC LINES&gt;&lt;... SUNDAY TRAFFIC LINES ...&gt;
+    &lt;START STATE&gt;<br>&lt;GOAL STATE&gt;<br>&lt;NUMBER OF PATHS&gt;<br>&lt;... PATHS ...&gt;&lt;NUMBER OF HEURISTIC PATHS&gt;&lt;... HEURISTIC PATHS ...&gt;
  
